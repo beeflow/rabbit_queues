@@ -9,20 +9,19 @@ from rabbit_queues import __version__
 
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
-REQUIREMENTS = [
-    "Django==3.1.7",
-    "pika==1.2.0",
-]
-
 setup(
     name="rabbit_queues",
     version=__version__,
     author="Rafal Przetakowski",
     description="Application to manage RabbitMQ queues",
     long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
     packages=find_packages(),
     url="https://github.com/beeflow/rabbit_queues.git",
-    include_package_data=True,
-    zip_safe=False,
-    install_requires=REQUIREMENTS,
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires=">=3.6",
 )
