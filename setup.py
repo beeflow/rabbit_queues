@@ -4,13 +4,12 @@ Author Rafal Przetakowski <rafal.p@beeflow.co.uk>"""
 import os
 
 import setuptools
-from rabbit_queues import __version__
 
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setuptools.setup(
-    name="rabbit_queues-beeflow",
-    version=__version__,
+    name="rabbitqueues-beeflow",
+    version="0.0.5",
     author="Rafal Przetakowski",
     author_email="office@beeflow.co.uk",
     description="Application to manage RabbitMQ queues",

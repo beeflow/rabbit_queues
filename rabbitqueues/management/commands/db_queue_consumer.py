@@ -2,7 +2,7 @@ import json
 
 from django.core.management.base import BaseCommand
 
-from rabbit_queues import RabbitQueue, get_consumers, get_rabbit_database_queue_name, get_unknown_elements_queue_name
+from rabbitqueues import RabbitQueue, get_consumers, get_rabbit_database_queue_name, get_unknown_elements_queue_name
 
 
 class Command(BaseCommand):

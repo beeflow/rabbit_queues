@@ -1,13 +1,10 @@
-"""copyright (c) 2021 Beeflow Ltd.
-
-Author Rafal Przetakowski <rafal.p@beeflow.co.uk>"""
-__version__ = "0.0.4"
+__version__ = "0.0.5"
 
 import pika
 from django.conf import settings
 from pika.exceptions import StreamLostError
 
-default_app_config = "rabbit_queues.apps.RabbitQueuesConfig"
+default_app_config = "rabbitqueues.apps.RabbitQueuesConfig"
 
 
 def get_rabbit_hostname():

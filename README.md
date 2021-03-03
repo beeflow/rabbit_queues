@@ -9,7 +9,7 @@ Into the `setup.py` file add:
 ```python
 INSTALLED_APPS = [
     ...
-    "rabbit_queues",
+    "rabbitqueues",
 ]
 ```
 
@@ -33,7 +33,7 @@ dictionary `RABBITMQ_QUEUE_CONSUMERS = {"consumer_name": consumer_class}` in `se
 ```python
 import json
 from django.conf import settings
-from rabbit_queues import RabbitQueue
+from rabbitqueues import RabbitQueue
 
 
 queue = RabbitQueue(settings.RABBITMQ_EMAIL_QUEUE)
