@@ -1,7 +1,7 @@
 """copyright (c) 2021 Beeflow Ltd.
 
 Author Rafal Przetakowski <rafal.p@beeflow.co.uk>"""
-__version__ = "0.0.2"
+__version__ = "0.0.3"
 
 import pika
 from django.conf import settings
