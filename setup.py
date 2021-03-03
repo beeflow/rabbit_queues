@@ -8,8 +8,8 @@ import setuptools
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setuptools.setup(
-    name="beeflow/rabbitqueues",
-    version="0.0.6",
+    name="rabbitqueues-beeflow",
+    version="0.0.7",
     author="Rafal Przetakowski",
     author_email="office@beeflow.co.uk",
     description="Application to manage RabbitMQ queues",
